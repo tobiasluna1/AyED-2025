@@ -2,12 +2,13 @@
 #define SENSOR_H
 
 #include <string>
+
+// Declarar un struct Sensor que tenga un nombre (string), valor (flotante) y unidad (string
 struct Sensor {
   std::string sensor;
   float valor;
   std::string unidad;
 };
-// Declarar un struct Sensor que tenga un nombre (string), valor (flotante) y unidad (string
 
 // Prototipos
 void imprimir(const Sensor* lista, int n);
