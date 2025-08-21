@@ -4,21 +4,28 @@
 using namespace std;
 
 int main() {
+    Sensor sCocina;
+    sCocina.nombre = "TempCocina";
+    sCocina.valor = ;
+    sCocina.unidad = "C";
     
-    // int N;
-    // cout << "Cantidad de sensores: ";
-    // cin >> N;
+    Sensor* sHabitacion = new Sensor;
+    sHabitacion->nombre = "TempHabitacion";
+
+     int N;
+     cout << "Cantidad de sensores: ";
+     cin >> N;
 
     //TODO: Instanciar un array de Sensores de forma dinamica y de tamaño N
 
-    // string archivoEntrada;
-    // cout << "Archivo de entrada: ";
-    // cin >> archivoEntrada;
+     string archivoEntrada;
+     cout << "Archivo de entrada: ";
+     cin >> archivoEntrada;
 
-    // int leidos = cargarDesdeArchivo(archivoEntrada, sensores, N);
-    // cout << "Se leyeron " << leidos << " sensores.\n";
+    int leidos = cargarDesdeArchivo(archivoEntrada, sensores, N);
+    cout << "Se leyeron " << leidos << " sensores.\n";
 
-    // imprimir(sensores, leidos);
+    imprimir(sensores, leidos);
 
     // TODO: Que habria que hacer aca??
     return 0;
