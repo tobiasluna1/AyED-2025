@@ -12,7 +12,7 @@ int main() {
     s2->setValor(24.0);
     s3->setValor(60);
 
-    Recinto sala("Sala", 5);
+    Recinto* sala = new Recinto ("Sala", 5);
     sala.agregarSensor(s1, 0);
     sala.agregarSensor(s2, 1);
     sala.agregarSensor(s3, 2);
