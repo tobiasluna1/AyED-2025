@@ -10,7 +10,7 @@ Sensor::Sensor(std::string nombre, std::string unidad) {
 }
 
 std::string Sensor::getNombre(){
-    return nombre;
+    return this->nombre;
 }
 
 void Sensor::setNombre(std::string nombreNuevo){
@@ -19,7 +19,7 @@ void Sensor::setNombre(std::string nombreNuevo){
 
 
 float Sensor::getValor(){
-    return valor;
+    return this->valor;
 }
 
 void Sensor::setValor(float valorNuevo){
@@ -27,5 +27,5 @@ void Sensor::setValor(float valorNuevo){
 }
 
 std::string Sensor::getUnidad(){
-    return unidad;
+    return this->unidad;
 }
